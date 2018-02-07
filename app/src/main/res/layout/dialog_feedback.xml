@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/custom_dialog_layout_design_user_input"
+    style="@style/llVertical"
+    android:baselineAligned="false">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:orientation="vertical"
+        android:paddingBottom="12dp"
+        android:visibility="visible">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="12dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="30dp"
+                    android:paddingRight="30dp"
+                    android:paddingTop="30dp">
+
+                    <com.developer.nikhil.fillbelly.view.textview.CustomBoldTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/rate_service"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="22sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingTop="20dp">
+
+                    <RatingBar
+                        android:id="@+id/rating"
+                        style="@style/CustomRatingBarLarge"
+                        android:layout_width="wrap_content"
+                        android:layout_height="38dp"
+                        android:numStars="5"
+                        android:layout_gravity="center"
+                        android:layout_centerHorizontal="true"
+                        android:max="5"
+                        android:isIndicator="false"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="30dp"
+                    android:paddingLeft="30dp"
+                    android:paddingRight="30dp"
+                    android:paddingTop="20dp"
+                    android:orientation="vertical">
+
+                    <com.developer.nikhil.fillbelly.view.textview.CustomBoldTextView
+                        style="@style/tvProfileStyle"
+                        android:text="@string/comments"
+                        android:textSize="18sp"/>
+
+                    <EditText
+                        android:id="@+id/edtComment"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/shape_edt_bg"
+                        android:layout_marginTop="10dp"
+                        android:gravity="top"
+                        android:maxLines="8"
+                        android:minLines="4"
+                        android:padding="10dp"
+                        android:hint="@string/enter_your_feedback"
+                        android:textColor="@color/colorPrimary"
+                        android:textColorHint="@color/color_text"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="30dp"
+                    android:paddingLeft="30dp"
+                    android:paddingRight="30dp">
+
+                    <com.developer.nikhil.fillbelly.view.button.CustomBoldButtonView
+                        android:id="@+id/btnRateSubmit"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/shape_btn"
+                        android:textColor="@color/white"
+                        android:padding="10dp"
+                        android:text="@string/submit"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </RelativeLayout>
+
+        <ImageButton
+            android:id="@+id/ibtnClose"
+            style="@style/ibtnClose"
+            android:contentDescription="@string/app_name"/>
+
+    </RelativeLayout>
+</LinearLayout>

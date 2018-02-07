@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/llVertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            style="@style/llVertical"
+            android:background="@color/white">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:paddingLeft="15dp"
+                            android:paddingRight="15dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:paddingBottom="10dp"
+                                android:paddingLeft="10dp"
+                                android:paddingRight="10dp"
+                                android:paddingTop="10dp">
+
+                                <EditText
+                                    android:id="@+id/edtUserName"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:background="@android:color/transparent"
+                                    android:drawableLeft="@drawable/user_name"
+                                    android:drawablePadding="15dp"
+                                    android:hint="Email"
+                                    android:inputType="textEmailAddress"
+                                    android:maxLines="1"
+                                    android:nextFocusDown="@+id/edtPassword"
+                                    android:padding="5dp"
+                                    android:singleLine="true"
+                                    android:textColor="@color/colorPrimary"
+                                    android:textColorHint="@color/dark_blue_with_64" />
+
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="fill_parent"
+                                android:layout_height="0.1dp"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginRight="5dp"
+                                android:alpha="0.3"
+                                android:background="@color/color_pager" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:paddingBottom="10dp"
+                                android:paddingLeft="10dp"
+                                android:paddingRight="10dp"
+                                android:paddingTop="10dp">
+
+                                <EditText
+                                    android:id="@+id/edtPassword"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:background="@android:color/transparent"
+                                    android:drawableLeft="@drawable/password"
+                                    android:drawablePadding="15dp"
+                                    android:hint="Password"
+                                    android:inputType="textPassword"
+                                    android:padding="5dp"
+                                    android:textColor="@color/colorPrimary"
+                                    android:textColorHint="@color/dark_blue_with_64" />
+
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="40dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RelativeLayout
+                        android:id="@+id/rlSignIn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerInParent="true">
+
+                        <com.developer.nikhil.fillbelly.view.button.CustomBoldButtonView
+                            android:id="@+id/btnSignIn"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerInParent="true"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginRight="30dp"
+                            android:background="@drawable/shape_btn"
+                            android:text="Sign In"
+                            android:textAllCaps="false"
+                            android:textColor="@color/white" />
+
+                    </RelativeLayout>
+
+                    <com.developer.nikhil.fillbelly.view.textview.CustomBoldTextView
+                        android:id="@+id/tvForgotPassword"
+                        style="@style/tvProfileStyle"
+                        android:layout_below="@+id/rlSignIn"
+                        android:layout_centerInParent="true"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="20dp"
+                        android:text="Forgot password ?" />
+
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

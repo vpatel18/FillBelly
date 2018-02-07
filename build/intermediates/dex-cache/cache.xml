@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/vishvapatel/Desktop/Workspace/FillBelly-2/FillBelly/app/build/intermediates/exploded-aar/com.android.support/support-fragment/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.0"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="/Users/vishvapatel/Desktop/Workspace/FillBelly-2/FillBelly/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-26.0.0-alpha1_b9a525b45f9ca05f026ccb4f5867d1ea37a4c0e2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vishvapatel/Desktop/Workspace/FillBelly-2/FillBelly/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.0"
+        sha1="dfecc4d835cdabcdecf7e95f0d20a3ef1e9d8ef4">
+        <dex dex="/Users/vishvapatel/Desktop/Workspace/FillBelly-2/FillBelly/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-vision-8.4.0_2801ed4e0b76747f24c88581bb2151bd57d7099a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vishvapatel/Desktop/Workspace/FillBelly-2/FillBelly/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.0"
+        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
+        <dex dex="/Users/vishvapatel/Desktop/Workspace/FillBelly-2/FillBelly/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-appindexing-8.4.0_74e05906f74a968819b92dddc6d0a0fec6b478f1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vishvapatel/Desktop/Workspace/FillBelly-2/FillBelly/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.0"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="/Users/vishvapatel/Desktop/Workspace/FillBelly-2/FillBelly/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-26.0.0-alpha1_67690dc0ac3da86fb14ceb656fa9b66ac7052151.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vishvapatel/Desktop/Workspace/FillBelly-2/FillBelly/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.0"
+        sha1="04de44f90606c77f3b28cf44861f306290505aac">
+        <dex dex="/Users/vishvapatel/Desktop/Workspace/FillBelly-2/FillBelly/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-maps-8.4.0_7cab25ccf1f5e237314daf9ecac34a1a9f258c8d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vishvapatel/Desktop/Workspace/FillBelly-2/FillBelly/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.0"
+        sha1="c54246475c1bb64ac6857d1320364bfbfeda2c46">
+        <dex dex="/Users/vishvapatel/Desktop/Workspace/FillBelly-2/FillBelly/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-fitness-8.4.0_dd6678a9cc0ca8233a3985e6294259b922eb1ce3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vishvapatel/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.7.0/9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4/glide-3.7.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.0"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="/Users/vishvapatel/Desktop/Workspace/FillBelly-2/FillBelly/app/build/intermediates/pre-dexed/debug/glide-3.7.0_f730fec705d4774d72482169398f69aaff75ac5c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vishvapatel/Desktop/Workspace/FillBelly-2/FillBelly/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.0"
+        sha1="b82b8e847173c28efffcd291b2a0b1ae9ad17fa4">
+        <dex dex="/Users/vishvapatel/Desktop/Workspace/FillBelly-2/FillBelly/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-identity-8.4.0_c2e49d9124f7adf0f1a36fbd878ed233fa992d9e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vishvapatel/Desktop/Workspace/FillBelly-2/FillBelly/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.0"
+        sha1="b36f30ac5ee5d5214f4b1e2ac49f11889d58e71a">
+        <dex dex="/Users/vishvapatel/Desktop/Workspace/FillBelly-2/FillBelly/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-drive-8.4.0_8879df51edf732795dff7ade49b8bf3e48d25409.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vishvapatel/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/26.0.0-alpha1/support-annotations-26.0.0-alpha1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.0"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="/Users/vishvapatel/Desktop/Workspace/FillBelly-2/FillBelly/app/build/intermediates/pre-dexed/debug/support-annotations-26.0.0-alpha1_32c4f61032d5d15b069f9bf7d9521d32729d539a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vishvapatel/Desktop/Workspace/FillBelly-2/FillBelly/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.0"
+        sha1="a8412b654dab86d57bf90683367488211c8a81f1">
+        <dex dex="/Users/vishvapatel/Desktop/Workspace/FillBelly-2/FillBelly/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-location-8.4.0_484d51bf677d75ba6bdac46675804b22bfe5961d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vishvapatel/Desktop/Workspace/FillBelly-2/FillBelly/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.0"
+        sha1="7f2420506110902f033406b25697cf97ee8c38b2">
+        <dex dex="/Users/vishvapatel/Desktop/Workspace/FillBelly-2/FillBelly/app/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-25.1.0_8c1e56820ac43ca84369d6df87850e62695fbf65.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vishvapatel/Desktop/Workspace/FillBelly-2/FillBelly/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.0"
+        sha1="0194a7409c40de94fb539d4ad9928ec5d47afeb7">
+        <dex dex="/Users/vishvapatel/Desktop/Workspace/FillBelly-2/FillBelly/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-safetynet-8.4.0_fcb05071c050d1a959784f6f89329a353ac04ff3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vishvapatel/Desktop/Workspace/FillBelly-2/FillBelly/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.0"
+        sha1="e167a34eaca0b31704212f43f9576ea84e05046f">
+        <dex dex="/Users/vishvapatel/Desktop/Workspace/FillBelly-2/FillBelly/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-wearable-8.4.0_8b0f5ab94294373a090d48e517d0cadf1669fc7f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vishvapatel/Desktop/Workspace/FillBelly-2/FillBelly/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.0"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="/Users/vishvapatel/Desktop/Workspace/FillBelly-2/FillBelly/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-26.0.0-alpha1_8c772f6f627a4348aab5dc63f62e54d2b9d8da72.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vishvapatel/Desktop/Workspace/FillBelly-2/FillBelly/app/build/intermediates/exploded-aar/com.android.support/support-v4/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/vishvapatel/Desktop/Workspace/FillBelly-2/FillBelly/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-26.0.0-alpha1_4732b9460d5cf1e4a3557b9b367c553eae1a82b4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vishvapatel/Desktop/Workspace/FillBelly-2/FillBelly/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.0"
+        sha1="1c9f35e952b212c843f7bd2c7eec8e82ad95602e">
+        <dex dex="/Users/vishvapatel/Desktop/Workspace/FillBelly-2/FillBelly/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-analytics-8.4.0_7d1b82cc9383861a057626d8e73dd41747c3df0a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vishvapatel/Desktop/Workspace/FillBelly-2/FillBelly/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.0"
+        sha1="9cad249cf62751a323d9af568caf12284b7d6062">
+        <dex dex="/Users/vishvapatel/Desktop/Workspace/FillBelly-2/FillBelly/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-nearby-8.4.0_e3ba57eaf9931abf0473acd866de2caa466745a2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vishvapatel/Desktop/Workspace/FillBelly-2/FillBelly/app/build/intermediates/exploded-aar/com.android.support/transition/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.0"
+        sha1="d38084015027549951cbaea5d5f6fb795cc81151">
+        <dex dex="/Users/vishvapatel/Desktop/Workspace/FillBelly-2/FillBelly/app/build/intermediates/pre-dexed/debug/com.android.support-transition-25.1.0_36929e23bedd4e7371938670b70dd10842ab10ca.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vishvapatel/Desktop/Workspace/FillBelly-2/FillBelly/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.0"
+        sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
+        <dex dex="/Users/vishvapatel/Desktop/Workspace/FillBelly-2/FillBelly/app/build/intermediates/pre-dexed/debug/com.android.support-design-25.1.0_dbd02b00fb8fc07819724e799f0763cfdfcd9646.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vishvapatel/Desktop/Workspace/FillBelly-2/FillBelly/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.0"
+        sha1="b5e7892fb0708e792e0e933c4c0a0ca0ac7831fb">
+        <dex dex="/Users/vishvapatel/Desktop/Workspace/FillBelly-2/FillBelly/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-ads-8.4.0_ae49e65a589bd8f97899732a07c8376348656ca8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vishvapatel/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.0"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/vishvapatel/Desktop/Workspace/FillBelly-2/FillBelly/app/build/intermediates/pre-dexed/debug/picasso-2.5.2_77c94b740f2df7f46ce0bec4d9ce1574a9f5dfdc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vishvapatel/Desktop/Workspace/FillBelly-2/FillBelly/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.0"
+        sha1="08d34b2d135c1cc96ab506fd8bf6916d1e2f391a">
+        <dex dex="/Users/vishvapatel/Desktop/Workspace/FillBelly-2/FillBelly/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-panorama-8.4.0_d505283b84b76c443686ea3a1157fb49d2290086.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vishvapatel/.gradle/caches/modules-2/files-2.1/com.mcxiaoke.volley/library/1.0.19/a8f23f65fc1e522ee4a1a697ee569901a46741fa/library-1.0.19.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.0"
+        sha1="a8f23f65fc1e522ee4a1a697ee569901a46741fa">
+        <dex dex="/Users/vishvapatel/Desktop/Workspace/FillBelly-2/FillBelly/app/build/intermediates/pre-dexed/debug/library-1.0.19_d7e3e85d619271535b2520eefff91a39eab5885d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vishvapatel/Desktop/Workspace/FillBelly-2/FillBelly/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.0"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="/Users/vishvapatel/Desktop/Workspace/FillBelly-2/FillBelly/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-26.0.0-alpha1_028198b1695dbf1ea22df32e68bc8ff5feda92dd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vishvapatel/Desktop/Workspace/FillBelly-2/FillBelly/app/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.0"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="/Users/vishvapatel/Desktop/Workspace/FillBelly-2/FillBelly/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-26.0.0-alpha1_8d6edfee2c99041c1c30385bb9ed87a27bc8482b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vishvapatel/Desktop/Workspace/FillBelly-2/FillBelly/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.0"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="/Users/vishvapatel/Desktop/Workspace/FillBelly-2/FillBelly/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-8.4.0_5053a9c3765b27cfce585b5f7fb2ee41e3e14aa4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vishvapatel/Desktop/Workspace/FillBelly-2/FillBelly/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.0"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="/Users/vishvapatel/Desktop/Workspace/FillBelly-2/FillBelly/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-26.0.0-alpha1_f5ad07b384b08af79a17e6e1d68ffe3d81a6a5b3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vishvapatel/Desktop/Workspace/FillBelly-2/FillBelly/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.0"
+        sha1="613298b7aa012f121ce542881c0a599ebd8078f2">
+        <dex dex="/Users/vishvapatel/Desktop/Workspace/FillBelly-2/FillBelly/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-measurement-8.4.0_4423850bb391b48b2a603bcdcfd51feaff9ca3fa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vishvapatel/Desktop/Workspace/FillBelly-2/FillBelly/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.0"
+        sha1="3a364cc6b698d1b3b2d284f64618daaa7fe77ddf">
+        <dex dex="/Users/vishvapatel/Desktop/Workspace/FillBelly-2/FillBelly/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-games-8.4.0_5eca027c228d0181b5028ed0f7147f3028462543.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vishvapatel/Desktop/Workspace/FillBelly-2/FillBelly/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.0"
+        sha1="966e5771a5a2ebfb31bf00d7cd6cd2546d245517">
+        <dex dex="/Users/vishvapatel/Desktop/Workspace/FillBelly-2/FillBelly/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-auth-8.4.0_78c42dfca5d37d26219de4fdbd70dad05a2e48ef.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vishvapatel/Desktop/Workspace/FillBelly-2/FillBelly/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/jars/libs/internal_impl-23.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.0"
+        sha1="03d38bb042efe3e5ce27ba66b729a9523c36d8fe">
+        <dex dex="/Users/vishvapatel/Desktop/Workspace/FillBelly-2/FillBelly/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.0_11d9e1024c3b4030925ead7e872a11485043e8b0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vishvapatel/Desktop/Workspace/FillBelly-2/FillBelly/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.0"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="/Users/vishvapatel/Desktop/Workspace/FillBelly-2/FillBelly/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-26.0.0-alpha1_68f0dc035bf5934d4077bdf19f8ce760739a9257.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vishvapatel/Desktop/Workspace/FillBelly-2/FillBelly/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.0"
+        sha1="d358b3dd49a7c67844622dcbc9cf4339e13952ce">
+        <dex dex="/Users/vishvapatel/Desktop/Workspace/FillBelly-2/FillBelly/app/build/intermediates/pre-dexed/debug/com.android.support-mediarouter-v7-23.0.0_1c2317e0ae21bfed7a5bb525aa1112a62ac2fa95.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vishvapatel/Desktop/Workspace/FillBelly-2/FillBelly/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.0"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="/Users/vishvapatel/Desktop/Workspace/FillBelly-2/FillBelly/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-26.0.0-alpha1_521d8ac98681a78c6a41ff6979a6ff3c24a02a47.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vishvapatel/Desktop/Workspace/FillBelly-2/FillBelly/app/build/intermediates/exploded-aar/com.jjoe64/graphview/4.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.0"
+        sha1="987adec819c9a98faf215814f41195da48fc724e">
+        <dex dex="/Users/vishvapatel/Desktop/Workspace/FillBelly-2/FillBelly/app/build/intermediates/pre-dexed/debug/com.jjoe64-graphview-4.2.1_b562746792e16f3b83f6f46032eb6c16001cbded.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vishvapatel/Desktop/Workspace/FillBelly-2/FillBelly/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.0"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="/Users/vishvapatel/Desktop/Workspace/FillBelly-2/FillBelly/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-8.4.0_f9baf0274e39fcff02f6b3847b707e1f2909eac4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vishvapatel/Desktop/Workspace/FillBelly-2/FillBelly/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.0"
+        sha1="9fe026fb4c7fce21bc5142f6e1bdf844f28061ac">
+        <dex dex="/Users/vishvapatel/Desktop/Workspace/FillBelly-2/FillBelly/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-appinvite-8.4.0_9b325579301378861707cf2587529fe0dc2a98c2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vishvapatel/Desktop/Workspace/FillBelly-2/FillBelly/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.0"
+        sha1="1a78298e7724d5440d210bcb946b3493250d354d">
+        <dex dex="/Users/vishvapatel/Desktop/Workspace/FillBelly-2/FillBelly/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-plus-8.4.0_5bc2b00211d73e8db7174c0c690ac466300e9b4b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vishvapatel/Desktop/Workspace/FillBelly-2/FillBelly/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.0"
+        sha1="b266c8faa5af72e579b9da36ef35053ffed6ac64">
+        <dex dex="/Users/vishvapatel/Desktop/Workspace/FillBelly-2/FillBelly/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-25.1.0_98d73113837e8b1a36d2075818e272ba46b992d4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vishvapatel/Desktop/Workspace/FillBelly-2/FillBelly/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.0"
+        sha1="f2df436a8f02ce7e4d7d209671fc45f97c470f0e">
+        <dex dex="/Users/vishvapatel/Desktop/Workspace/FillBelly-2/FillBelly/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-wallet-8.4.0_eb78cf30b2b38c13877952809c44127d8ade9a68.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vishvapatel/Desktop/Workspace/FillBelly-2/FillBelly/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.0"
+        sha1="2d7fe76982677315c4dc4edfb459c8ca718a9d4c">
+        <dex dex="/Users/vishvapatel/Desktop/Workspace/FillBelly-2/FillBelly/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-gcm-8.4.0_664a9dbe23906c726f8df82552e976a1554ae44b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vishvapatel/Desktop/Workspace/FillBelly-2/FillBelly/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.0"
+        sha1="551e78f21acf69ebfb489c0e79647824c838013e">
+        <dex dex="/Users/vishvapatel/Desktop/Workspace/FillBelly-2/FillBelly/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-cast-8.4.0_b8017f93569ff37307eb2d13c21cd0ac5c2c6b8f.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <!--<android.support.v4.view.ViewPager
+                    android:id="@+id/viewpager"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/ic_headerr"
+                    android:fitsSystemWindows="true"
+                    tools:listitem="@layout/pager_item" />-->
+
+                <ImageView
+                    android:id="@+id/ivCollection"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ic_headerr" />
+
+                <ImageView
+                    android:id="@+id/ivBack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:src="@drawable/back" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="20dp">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <com.developer.nikhil.fillbelly.view.textview.CustomBlackTextView
+                            android:id="@+id/tvHotelName"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.5"
+                            android:text="The Best View Restaurant"
+                            android:textColor="@color/dark_blue"
+                            android:textSize="18sp" />
+
+                        <com.developer.nikhil.fillbelly.view.textview.CustomRegularTextView
+                            android:id="@+id/tvRating"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.6"
+                            android:drawableLeft="@drawable/star"
+                            android:gravity="right|center"
+                            android:paddingRight="20dp"
+                            android:text="4.5/5"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="16sp" />
+
+                    </LinearLayout>
+
+                    <com.developer.nikhil.fillbelly.view.textview.CustomRegularTextView
+                        android:id="@+id/tvLocation"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="SAN JOSE, FLORIDA"
+                        android:textColor="@color/dark_blue"
+                        android:textSize="14sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0.2dp"
+                        android:layout_marginTop="20dp"
+                        android:alpha="0.5"
+                        android:background="@color/black" />
+
+                    <com.developer.nikhil.fillbelly.view.textview.CustomBoldTextView
+                        android:id="@+id/tvDescriptionTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:text="Cuisines:"
+                        android:textColor="@color/dark_blue"
+                        android:textSize="16sp" />
+
+                    <com.developer.nikhil.fillbelly.view.textview.CustomRegularTextView
+                        android:id="@+id/tvCuisine"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="If the build variant you've selected is a debug build type, then the APK is signed with a debug key and it's ready to install. If you've selected a release variant, then, by default, the APK is unsigned and you must manually."
+                        android:textColor="@color/black_transparent"
+                        android:textSize="16sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <com.developer.nikhil.fillbelly.view.textview.CustomBoldTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:text="Average Cost for 2 Persons:"
+                            android:textColor="@color/dark_blue"
+                            android:textSize="16sp" />
+
+                        <com.developer.nikhil.fillbelly.view.textview.CustomRegularTextView
+                            android:id="@+id/tvCostFor2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp"
+                            android:gravity="center"
+                            android:text="1000"
+                            android:textColor="@color/black_transparent"
+                            android:textSize="16sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <com.developer.nikhil.fillbelly.view.textview.CustomBoldTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:text="Price Range:"
+                            android:textColor="@color/dark_blue"
+                            android:textSize="16sp" />
+
+                        <com.developer.nikhil.fillbelly.view.textview.CustomRegularTextView
+                            android:id="@+id/tvPriceRange"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:gravity="center"
+                            android:text=""
+                            android:textColor="@color/black_transparent"
+                            android:textSize="16sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <com.developer.nikhil.fillbelly.view.textview.CustomBoldTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:text="Home Develiery Available:"
+                            android:textColor="@color/dark_blue"
+                            android:textSize="16sp" />
+
+                        <com.developer.nikhil.fillbelly.view.textview.CustomRegularTextView
+                            android:id="@+id/tvDelivery"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:gravity="center"
+                            android:text="Yes"
+                            android:textColor="@color/black_transparent"
+                            android:textSize="16sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <com.developer.nikhil.fillbelly.view.textview.CustomBoldTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:text="Total Votes:"
+                            android:textColor="@color/dark_blue"
+                            android:textSize="16sp" />
+
+                        <com.developer.nikhil.fillbelly.view.textview.CustomRegularTextView
+                            android:id="@+id/tvVotes"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:gravity="center"
+                            android:text=""
+                            android:textColor="@color/black_transparent"
+                            android:textSize="16sp" />
+
+                    </LinearLayout>
+
+                    <com.developer.nikhil.fillbelly.view.button.CustomBoldButtonView
+                        android:id="@+id/btnFeedback"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/shape_btn"
+                        android:text="FeedBack"
+                        android:textColor="@color/white" />
+
+                    <com.developer.nikhil.fillbelly.view.button.CustomBoldButtonView
+                        android:id="@+id/btnGraph"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="20dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/shape_btn"
+                        android:text="Rating Trends"
+                        android:textColor="@color/white" />
+
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

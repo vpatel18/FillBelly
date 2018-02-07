@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:paddingBottom="15dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="15dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/ivRestaurantPic"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_headerr" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2.5"
+            android:orientation="vertical"
+            android:paddingLeft="15dp"
+            android:paddingRight="20dp">
+
+            <com.developer.nikhil.fillbelly.view.textview.CustomBlackTextView
+                android:id="@+id/tvName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="The Fern"
+                android:textAllCaps="false"
+                android:textColor="@color/dark_blue"
+                android:textSize="17sp" />
+
+            <com.developer.nikhil.fillbelly.view.textview.CustomRegularTextView
+                android:id="@+id/tvDetail"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="2"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:paddingRight="10dp"
+                android:text="Italian, Indian, Thai, Mexican Dishes"
+                android:textColor="@color/dark_blue"
+                android:textSize="15sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/ivStar"
+                    android:layout_width="17dp"
+                    android:layout_height="17dp"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/star" />
+
+
+                <com.developer.nikhil.fillbelly.view.textview.CustomRegularTextView
+                    android:id="@+id/tvRating"
+                    style="@style/tvProfileStyle"
+                    android:paddingLeft="10dp"
+                    android:text="8.7/10"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:id="@+id/mapView"
+                    android:layout_width="17dp"
+                    android:layout_height="17dp"
+
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/map" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:layout_marginTop="10dp"
+        android:alpha="0.5"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/light_black" />
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2856b6</color>
+    <color name="colorPrimaryDark">#1c47a0</color>
+    <color name="colorAccent">#143a89</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="grey">#3d3c3c</color>
+    <color name="color_blue">#3dddff</color>
+
+    <color name="color_sign">#2d2b2c</color>
+    <color name="color_bg_movie_list">#3E3E3E</color>
+    <color name="dark_white">#e1dede</color>
+    <color name="black_transparent">#99000000</color>
+    <color name="transparent">#2e2e2e</color>
+    <color name="dark_grey">#525252</color>
+
+    <color name="light_black">#2d2b2c</color>
+    <color name="color_text">#9c9696</color>
+    <color name="color_pager">#2F2D2E</color>
+    <color name="color_see_all">#34AECD</color>
+
+
+    <color name="btn_sign_in">#2856b6</color>
+    <color name="cp_04">#042856b6</color>
+    <color name="dark_blue">#010b22</color>
+    <color name="dark_blue_with_87">#87010b22</color>
+    <color name="dark_blue_with_64">#64010b22</color>
+
+</resources>

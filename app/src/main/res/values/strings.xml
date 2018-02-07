@@ -1,0 +1,157 @@
+<resources>
+    <string name="app_name">FillBelly</string>
+    <string name="on">ON</string>
+    <string name="off">OFF</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="skip">Skip &amp; Explore</string>
+    <string name="network_alert">We\'re having trouble reaching the network. Check your connection or try again in a few minutes.</string>
+    <string name="alert_email">Please enter email</string>
+    <string name="alert_valid_email">Please enter valid email id</string>
+    <string name="alert_password">Please enter password</string>
+    <string name="alert_password_length">Password must be at least 5 characters</string>
+    <string name="alert_language">Please select your language</string>
+    <string name="camera_permission">Please make sure to enable camera permission</string>
+    <string name="sure_to_logout">Are you sure you wan\'t to logout?</string>
+    <string name="alert_preference_null">Please register yourself.....</string>
+    <string name="please_wait">Please wait…</string>
+    <string name="please_login">Please login to access the Application…</string>
+
+
+    <string name="submit">Submit</string>
+    <string name="watch">Watch</string>
+    <string name="signUp_title">Start Shopping With Us</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="address">Address</string>
+    <string name="select_birthdate">Select Birthdate</string>
+    <string name="alert_first_name">Please enter first name</string>
+    <string name="alert_last_name">Please enter last name</string>
+    <string name="alert_phone_number">Please enter phone number</string>
+    <string name="alert_address">Please enter address</string>
+    <string name="alert_confirm_pass">Please select confirm password</string>
+    <string name="register_success">Register has been done successfully</string>
+    <string name="alert_pass_not_match">Please try again, Password didn\'t match</string>
+    <string name="signup_success">Your account has been registered successfully. Please check your mail to activate it.</string>
+    <string name="alert_property_code">Please enter propert code</string>
+    <string name="alert_valid_property_code">Please enter valid property code</string>
+    <string name="alert_property_name">Please enter Property name</string>
+    <string name="alert_login">Please login for further access… Do you want to login?</string>
+    <string name="alert_insert_cardno">Please enter card number</string>
+    <string name="alert_fake_cakrdno">Please enter proper card number</string>
+    <string name="alert_insert_month">Please enter Month of Expiration</string>
+    <string name="alert_no_month">Please enter valid month</string>
+    <string name="alert_insert_year">Please enter Year of Expiration</string>
+    <string name="alert_length_year">Please enter proper Year of Expiration</string>
+    <string name="alert_valid_year">Please enter valid Year of Expiration</string>
+    <string name="alert_insert_cvv">Please enter cvv</string>
+    <string name="alert_length_cvv">Please check your cvv</string>
+    <string name="alert_terms">Please agree the terms and conditions</string>
+    <string name="terms_and_conditions"><u><b><i>terms and conditions</i></b></u></string>
+    <string name="alert_gps_further">Please enable GPS to access further</string>
+    <string name="alert_network">Something went wrong…</string>
+
+
+    <!--Profile Screen-->
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="tvCP">Do you wan\'t to Change Password?</string>
+
+
+    <!--Favorite Screen-->
+    <string name="title_fav">Favourites</string>
+    <string name="clear_all">Clear All</string>
+
+
+    <!--Movie Detail Screen-->
+    <string name="purchase">Purchase</string>
+    <string name="payment">Payment</string>
+
+    <!--History Screen-->
+    <string name="history">History</string>
+
+    <!--Payment Screen-->
+    <string name="payment_details">Payment details</string>
+    <string name="saved_cards">Saved cards</string>
+    <string name="card_number">Card number</string>
+    <string name="expiration">Expiration</string>
+    <string name="month">Month</string>
+    <string name="year">Year</string>
+    <string name="cvv">CVV</string>
+    <string name="remember_details">Remember details</string>
+    <string name="i_agree">I agree to</string>
+    <string name="apply">Apply</string>
+    <string name="enter_promo_code">Enter promo code</string>
+    <string name="pay">Pay</string>
+
+
+    <!--Change Password-->
+    <string name="change_password">Change Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_password">Confirm Password</string>
+
+
+    <!--Forgot Password Screen-->
+    <string name="fb">Forgot password ?</string>
+    <string name="fb_enter">Enter your email associated with your account to get link to reset the password</string>
+    <string name="fb_enter_email">Enter email address</string>
+
+    <!--Another Device-->
+    <string name="register">Register</string>
+    <string name="ad">Using another device ?</string>
+    <string name="ad_text">To register this device. Enter email address associated with your account.</string>
+
+    <!--Rate Screen-->
+    <string name="rate_service">Rate service</string>
+    <string name="comments">Comments</string>
+
+    <!--Profile Screen-->
+    <string name="your_acc">Your Account</string>
+    <string name="fav">Favorite</string>
+    <string name="watchlist">Watchlist</string>
+    <string name="create_profile">Create Profile</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="faq">FAQ</string>
+    <string name="logout">Logout</string>
+    <string name="delivery">Delivery</string>
+    <string name="near_by">Near By</string>
+    <string name="rating">Rating</string>
+    <string name="take_out">Take Out</string>
+    <string name="collection">Collection</string>
+    <string name="alert_comment">Please enter comment for this Restaurant Service</string>
+    <string name="enter_your_feedback">Enter your feedback...</string>
+    <string name="choose_location">Detect My Location</string>
+    <string name="alert_logout">Are you sure want to logout?</string>
+
+
+    <string-array name="month_list">
+        <item>Month</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+
+    <string-array name="location_list">
+        <item>Select Location</item>
+        <item>Current Location</item>
+        <item>Other</item>
+    </string-array>
+
+
+
+</resources>

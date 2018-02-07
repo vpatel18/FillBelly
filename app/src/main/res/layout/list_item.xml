@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dp"
+    android:paddingLeft="10dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/llCuisine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:visibility="gone">
+
+    <com.developer.nikhil.fillbelly.view.textview.CustomRegularTextView
+        android:id="@+id/tvCuisine"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:paddingLeft="20dp"
+        android:textSize="16sp"
+        android:text="Item"/>
+
+    <CheckBox
+        android:id="@+id/chkCuisine"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llRate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:visibility="gone">
+
+        <RatingBar
+            android:id="@+id/ratingbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llCost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.developer.nikhil.fillbelly.view.textview.CustomRegularTextView
+            android:id="@+id/tvCost"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:paddingLeft="20dp"
+            android:textSize="16sp"
+            android:text="50-100 $"/>
+
+        <CheckBox
+            android:id="@+id/chkCost"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+    <com.developer.nikhil.fillbelly.view.button.CustomBlackButtonView
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="@string/save"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:background="@drawable/shape_btn"
+        android:visibility="gone"/>
+
+</LinearLayout>

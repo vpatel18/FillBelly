@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/llVertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout style="@style/llVertical"
+            android:background="@color/white">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:id="@+id/llMain"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:paddingLeft="15dp"
+                            android:paddingRight="15dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="10dp"
+                                android:paddingRight="10dp"
+                                android:paddingTop="5dp">
+
+                                <EditText
+                                    android:id="@+id/edtFname"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:background="@android:color/transparent"
+                                    android:hint="Firstname"
+                                    android:inputType="text"
+                                    android:maxLines="1"
+                                    android:padding="15dp"
+                                    android:singleLine="true"
+                                    android:textColor="@color/colorPrimary"
+                                    android:textColorHint="@color/dark_blue_with_64"
+                                    android:textStyle="normal" />
+
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="fill_parent"
+                                android:layout_height="0.1dp"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginRight="5dp"
+                                android:alpha="0.3"
+                                android:background="@color/color_pager" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="10dp"
+                                android:paddingRight="10dp"
+                                android:paddingTop="5dp">
+
+                                <EditText
+                                    android:id="@+id/edtLname"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:background="@android:color/transparent"
+                                    android:hint="Lastname"
+                                    android:inputType="text"
+                                    android:maxLines="1"
+                                    android:padding="15dp"
+                                    android:singleLine="true"
+                                    android:textColor="@color/colorPrimary"
+                                    android:textColorHint="@color/dark_blue_with_64"
+                                    android:textStyle="normal" />
+
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="fill_parent"
+                                android:layout_height="0.1dp"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginRight="5dp"
+                                android:alpha="0.3"
+                                android:background="@color/color_pager" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="10dp"
+                                android:paddingRight="10dp"
+                                android:paddingTop="5dp">
+
+                                <EditText
+                                    android:id="@+id/edtEmail"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:background="@android:color/transparent"
+                                    android:hint="Email"
+                                    android:inputType="textEmailAddress"
+                                    android:maxLines="1"
+                                    android:padding="15dp"
+                                    android:singleLine="true"
+                                    android:textColor="@color/colorPrimary"
+                                    android:textColorHint="@color/dark_blue_with_64"
+                                    android:textStyle="normal" />
+
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="fill_parent"
+                                android:layout_height="0.1dp"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginRight="5dp"
+                                android:alpha="0.3"
+                                android:background="@color/color_pager" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="10dp"
+                                android:paddingRight="10dp"
+                                android:paddingTop="5dp">
+
+                                <EditText
+                                    android:id="@+id/edtPhone"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:background="@android:color/transparent"
+                                    android:hint="Phone"
+                                    android:inputType="number"
+                                    android:maxLines="1"
+                                    android:padding="15dp"
+                                    android:singleLine="true"
+                                    android:textColor="@color/colorPrimary"
+                                    android:textColorHint="@color/dark_blue_with_64"
+                                    android:textStyle="normal" />
+
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="fill_parent"
+                                android:layout_height="0.1dp"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginRight="5dp"
+                                android:alpha="0.3"
+                                android:background="@color/color_pager" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="10dp"
+                                android:paddingRight="10dp"
+                                android:paddingTop="5dp">
+
+                                <EditText
+                                    android:id="@+id/edtPassword"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:background="@android:color/transparent"
+                                    android:hint="Password"
+                                    android:inputType="textPassword"
+                                    android:maxLines="1"
+                                    android:padding="15dp"
+                                    android:singleLine="true"
+                                    android:textColor="@color/colorPrimary"
+                                    android:textColorHint="@color/dark_blue_with_64"
+                                    android:textStyle="normal" />
+
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="fill_parent"
+                                android:layout_height="0.1dp"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginRight="5dp"
+                                android:alpha="0.3"
+                                android:background="@color/color_pager" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="10dp"
+                                android:paddingRight="10dp"
+                                android:paddingTop="5dp">
+
+                                <EditText
+                                    android:id="@+id/edtConfirmPassword"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:background="@android:color/transparent"
+                                    android:hint="Confirm password"
+                                    android:inputType="textPassword"
+                                    android:maxLines="1"
+                                    android:padding="15dp"
+                                    android:singleLine="true"
+                                    android:textColor="@color/colorPrimary"
+                                    android:textColorHint="@color/dark_blue_with_64"
+                                    android:textStyle="normal" />
+
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </RelativeLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+                android:paddingTop="40dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RelativeLayout
+                        android:id="@+id/rlSignIn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerInParent="true">
+
+                        <com.developer.nikhil.fillbelly.view.button.CustomBoldButtonView
+                            android:id="@+id/btnSignUp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerInParent="true"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginRight="30dp"
+                            android:background="@drawable/shape_btn"
+                            android:text="Register"
+                            android:textAllCaps="false"
+                            android:textColor="@color/white" />
+
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/rlSignIn"
+                        android:layout_centerInParent="true"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="20dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <com.developer.nikhil.fillbelly.view.textview.CustomRegularTextView
+                            android:id="@+id/tvTC"
+                            style="@style/tvProfileStyle" />
+
+                        <com.developer.nikhil.fillbelly.view.textview.CustomRegularTextView
+                            style="@style/tvProfileStyle"
+                            android:text="  and  " />
+
+                        <com.developer.nikhil.fillbelly.view.textview.CustomRegularTextView
+                            android:id="@+id/tvPolicy"
+                            style="@style/tvProfileStyle" />
+
+                    </LinearLayout>
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
